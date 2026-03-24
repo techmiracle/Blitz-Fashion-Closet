@@ -335,7 +335,7 @@ img {
     }
 
     .nav-inner {
-        height: 95px;
+        height: 99px;
         padding: 0 15px;
     }
 
@@ -365,7 +365,7 @@ img {
     /* MOBILE MENU */
     .nav-menu {
         position: absolute;
-        top: 75px;
+        top: 85px;
         left: 0;
         width: 100%;
         background: black;
@@ -380,7 +380,7 @@ img {
     }
 
     .nav-menu a {
-        font-size: 42px;
+        font-size: 60px;
         letter-spacing: 1px;
     }
 
@@ -390,12 +390,12 @@ img {
 
     /* HERO */
     .hero h1 {
-        font-size: 40px;
+        font-size: 60px;
         letter-spacing: 3px;
     }
 
     .hero p {
-        font-size: 42px;
+        font-size: 60px;
     }
 
     /* FOOTER */
