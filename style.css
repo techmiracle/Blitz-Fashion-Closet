@@ -340,11 +340,11 @@ img {
     }
 
     .brand {
-        font-size: 18px;
+        font-size: 30px;
     }
 
     .nav-icons a {
-        font-size: 35px;
+        font-size: 42px;
     }
 
     /* HAMBURGER */
@@ -380,7 +380,7 @@ img {
     }
 
     .nav-menu a {
-        font-size: 35px;
+        font-size: 42px;
         letter-spacing: 1px;
     }
 
@@ -390,12 +390,12 @@ img {
 
     /* HERO */
     .hero h1 {
-        font-size: 36px;
+        font-size: 40px;
         letter-spacing: 3px;
     }
 
     .hero p {
-        font-size: 29px;
+        font-size: 42px;
     }
 
     /* FOOTER */
