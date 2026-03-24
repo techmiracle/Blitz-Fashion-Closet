@@ -32,17 +32,17 @@ img {
 }
 
 .nav-inner {
-    width: 97%;
+    width: 99%;
     max-width: 1400px;
     margin: auto;
-    height: 90px;
+    height: 97px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .brand {
-    font-size: 30px;
+    font-size: 60px;
     letter-spacing: 2px;
     font-weight: 500;
     color: white;
