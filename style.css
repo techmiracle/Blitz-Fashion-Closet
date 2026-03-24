@@ -32,7 +32,7 @@ img {
 }
 
 .nav-inner {
-    width: 99%;
+    width: 90%;
     max-width: 1400px;
     margin: auto;
     height: 97px;
@@ -335,7 +335,7 @@ img {
     }
 
     .nav-inner {
-        height: 75px;
+        height: 85px;
         padding: 0 15px;
     }
 
@@ -380,7 +380,7 @@ img {
     }
 
     .nav-menu a {
-        font-size: 16px;
+        font-size: 27px;
         letter-spacing: 1px;
     }
 
