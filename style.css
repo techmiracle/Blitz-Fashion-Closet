@@ -335,7 +335,7 @@ img {
     }
 
     .nav-inner {
-        height: 85px;
+        height: 95px;
         padding: 0 15px;
     }
 
@@ -344,7 +344,7 @@ img {
     }
 
     .nav-icons a {
-        font-size: 13px;
+        font-size: 35px;
     }
 
     /* HAMBURGER */
@@ -380,7 +380,7 @@ img {
     }
 
     .nav-menu a {
-        font-size: 27px;
+        font-size: 35px;
         letter-spacing: 1px;
     }
 
@@ -395,7 +395,7 @@ img {
     }
 
     .hero p {
-        font-size: 14px;
+        font-size: 29px;
     }
 
     /* FOOTER */
