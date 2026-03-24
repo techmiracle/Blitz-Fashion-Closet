@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Lookbook | Blitz Fashion Closet</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+<script src="js/cart.js" defer></script>
+
+</head>
+
+<body>
+
+<header class="lux-nav">
+<div class="nav-inner">
+
+<div class="brand">Blitz Fashion Closet</div>
+
+<div class="hamburger" id="hamburger">
+<span></span>
+<span></span>
+<span></span>
+</div>
+
+<ul class="nav-menu">
+<li><a href="index.html">Home</a></li>
+<li><a href="lookbook.html">Lookbook</a></li>
+<li><a href="about.html">About</a></li>
+</ul>
+
+</div>
+</header>
+
+<section class="lookbook">
+
+<div class="lookbook-header">
+<h1>Lookbook</h1>
+<p>Shop the outfits directly from the runway.</p>
+</div>
+
+<div class="lookbook-grid">
+
+<!-- LOOK 1 -->
+<div class="look-item">
+
+<video autoplay muted loop playsinline onclick="openVideo('videos/video1.mp4')">
+<source src="videos/video1.mp4" type="video/mp4">
+</video>
+
+<button class="add-look-cart"
+onclick="addLookToCart('Lookbook outfit1',200000)">Add To Cart</button>
+
+</div>
+
+<!-- LOOK 2 -->
+<div class="look-item">
+
+<video autoplay muted loop playsinline onclick="openVideo('videos/video2.mp4')">
+<source src="videos/video2.mp4" type="video/mp4">
+</video>
+
+<button class="add-look-cart"
+onclick="addLookToCart('Lookbook Outfit 2',150000)">
+Add To Cart
+</button>
+
+</div>
+
+<!-- LOOK 3 -->
+<div class="look-item">
+
+<video autoplay muted loop playsinline onclick="openVideo('videos/video3.mp4')">
+<source src="videos/video3.mp4" type="video/mp4">
+</video>
+
+<button class="add-look-cart"
+onclick="addLookToCart('Lookbook Outfit 3',70000)">
+Add To Cart
+</button>
+
+</div>
+
+<!-- LOOK 4 -->
+<div class="look-item">
+
+<video autoplay muted loop playsinline onclick="openVideo('videos/video4.mp4')">
+<source src="videos/video4.mp4" type="video/mp4">
+</video>
+
+<button class="add-look-cart"
+onclick="addLookToCart('Lookbook Outfit 4',80000)">
+Add To Cart
+</button>
+
+</div>
+
+<!-- LOOK 5 -->
+<div class="look-item">
+
+<video autoplay muted loop playsinline onclick="openVideo('videos/video5.mp4')">
+<source src="videos/video5.mp4" type="video/mp4">
+</video>
+
+<button class="add-look-cart"
+onclick="addLookToCart('Lookbook Outfit 5',45000)">
+Add To Cart
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- VIDEO MODAL -->
+
+<div class="video-modal" id="videoModal">
+
+<span class="close-modal" onclick="closeVideo()">×</span>
+
+<video id="modalVideo" controls></video>
+
+</div>
+
+</body>
+
+</html>
