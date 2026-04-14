@@ -32,7 +32,7 @@ const products = {
         price: "₦600,000",
 		image: "images/image1.jpeg",
         description: "The Aura dress flows with subtle charm, designed to highlight your natural beauty. light, graceful, and captivating. Perfect for moments where you want to feel effortlesly radiant."
-    },
+    }
 };
 
 // Get product ID from URL
