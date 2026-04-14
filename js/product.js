@@ -20,17 +20,17 @@ const products = {
         description: "A coordinated luxury set made for bold expression and shared identity."
     },
 
-	image0: {
+	closet6: {
         name: "Celestial Knot Gown",
         price: "₦700,000",
-		image: "images/image0.jpeg",
+		image: "images/closet6.jpeg",
         description: "Enchanting custom gown for a truly unforgottable Staetment."
     },
 	
-	image1: {
+	closet7: {
         name: "Aura Dress",
         price: "₦600,000",
-		image: "images/image1.jpeg",
+		image: "images/closet7.jpeg",
         description: "The Aura dress flows with subtle charm, designed to highlight your natural beauty. light, graceful, and captivating. Perfect for moments where you want to feel effortlesly radiant."
     }
 };
