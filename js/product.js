@@ -20,14 +20,14 @@ const products = {
         description: "A coordinated luxury set made for bold expression and shared identity."
     },
 
-	image0: {
+	image1: {
         name: "Celestial Knot Gown",
         price: "₦700,000",
 		image: "images/closet4.jpeg",
         description: "Enchanting custom gown for a truly unforgottable Staetment."
     },
 	
-	image1: {
+	image0: {
         name: "Aura Dress",
         price: "₦600,000",
 		image: "images/closet6.jpeg",
