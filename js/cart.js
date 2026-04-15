@@ -6,13 +6,14 @@ const cartTotal = document.getElementById("cart-total");
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
 /* ADD TO CART (used by lookbook page) */
-function addLookToCart(name, price){
+function addLookToCart(name, price, image){
 
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
 cart.push({
 name: name,
 price: price,
+image: image,
 quantity: 1
 });
 
@@ -49,18 +50,17 @@ const priceNumber = parseInt(String(item.price).replace(/[^0-9]/g,""));
 total += priceNumber * item.quantity;
 
 const div = document.createElement("div");
-
 div.classList.add("cart-item");
 
 div.innerHTML = `
-<img src="${item.image}" class="cart-img">
+    <img src="${item.image}" class="cart-img">
 
-<div class="cart-info">
-    <h3>${item.name}</h3>
-    <p>₦${priceNumber.toLocaleString()}</p>
-    <p>Quantity: ${item.quantity}</p>
-    <button onclick="removeItem(${index})">Remove</button>
-</div>
+    <div class="cart-info">
+        <h3>${item.name}</h3>
+        <p>₦${priceNumber.toLocaleString()}</p>
+        <p>Quantity: ${item.quantity}</p>
+        <button onclick="removeItem(${index})">Remove</button>
+    </div>
 `;
 
 cartContainer.appendChild(div);
