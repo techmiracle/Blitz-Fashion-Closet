@@ -50,12 +50,17 @@ total += priceNumber * item.quantity;
 
 const div = document.createElement("div");
 
+div.classList.add("cart-item");
+
 div.innerHTML = `
-<h3>${item.name}</h3>
-<p>₦${priceNumber.toLocaleString()}</p>
-<p>Quantity: ${item.quantity}</p>
-<button onclick="removeItem(${index})">Remove</button>
-<hr>
+<img src="${item.image}" class="cart-img">
+
+<div class="cart-info">
+    <h3>${item.name}</h3>
+    <p>₦${priceNumber.toLocaleString()}</p>
+    <p>Quantity: ${item.quantity}</p>
+    <button onclick="removeItem(${index})">Remove</button>
+</div>
 `;
 
 cartContainer.appendChild(div);
