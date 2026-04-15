@@ -762,8 +762,10 @@ cursor:pointer;
         align-items: flex-start;
     }
 
-    .cart-img {
-        width: 70%;
-        height: auto;
-    }
+.cart-img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+    
 }
